@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		954F761D1F0298AC0023DA53 /* MSAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954F761C1F0298AC0023DA53 /* MSAlertController.m */; };
+		956918521EBC223E00B64174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 956918511EBC223E00B64174 /* main.m */; };
+		956918551EBC223E00B64174 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 956918541EBC223E00B64174 /* AppDelegate.m */; };
+		956918581EBC223E00B64174 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 956918571EBC223E00B64174 /* ViewController.m */; };
+		9569185D1EBC223E00B64174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9569185C1EBC223E00B64174 /* Assets.xcassets */; };
+		956918601EBC223E00B64174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9569185E1EBC223E00B64174 /* LaunchScreen.storyboard */; };
+		9569186B1EBC223E00B64174 /* MSAlertControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9569186A1EBC223E00B64174 /* MSAlertControllerDemoTests.m */; };
+		956918761EBC223E00B64174 /* MSAlertControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 956918751EBC223E00B64174 /* MSAlertControllerDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		956918671EBC223E00B64174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 956918451EBC223E00B64174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9569184C1EBC223E00B64174;
+			remoteInfo = MSAlertControllerDemo;
+		};
+		956918721EBC223E00B64174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 956918451EBC223E00B64174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9569184C1EBC223E00B64174;
+			remoteInfo = MSAlertControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		954F761B1F0298AC0023DA53 /* MSAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAlertController.h; sourceTree = "<group>"; };
+		954F761C1F0298AC0023DA53 /* MSAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAlertController.m; sourceTree = "<group>"; };
+		9569184D1EBC223E00B64174 /* MSAlertControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSAlertControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		956918511EBC223E00B64174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		956918531EBC223E00B64174 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		956918541EBC223E00B64174 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		956918561EBC223E00B64174 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		956918571EBC223E00B64174 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9569185C1EBC223E00B64174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9569185F1EBC223E00B64174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		956918611EBC223E00B64174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		956918661EBC223E00B64174 /* MSAlertControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSAlertControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9569186A1EBC223E00B64174 /* MSAlertControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSAlertControllerDemoTests.m; sourceTree = "<group>"; };
+		9569186C1EBC223E00B64174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		956918711EBC223E00B64174 /* MSAlertControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSAlertControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		956918751EBC223E00B64174 /* MSAlertControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSAlertControllerDemoUITests.m; sourceTree = "<group>"; };
+		956918771EBC223F00B64174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9569184A1EBC223E00B64174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956918631EBC223E00B64174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9569186E1EBC223E00B64174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		954F761A1F0298AC0023DA53 /* MSAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				954F761B1F0298AC0023DA53 /* MSAlertController.h */,
+				954F761C1F0298AC0023DA53 /* MSAlertController.m */,
+			);
+			name = MSAlertController;
+			path = ../../MSAlertController;
+			sourceTree = "<group>";
+		};
+		956918441EBC223E00B64174 = {
+			isa = PBXGroup;
+			children = (
+				9569184F1EBC223E00B64174 /* MSAlertControllerDemo */,
+				956918691EBC223E00B64174 /* MSAlertControllerDemoTests */,
+				956918741EBC223E00B64174 /* MSAlertControllerDemoUITests */,
+				9569184E1EBC223E00B64174 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9569184E1EBC223E00B64174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9569184D1EBC223E00B64174 /* MSAlertControllerDemo.app */,
+				956918661EBC223E00B64174 /* MSAlertControllerDemoTests.xctest */,
+				956918711EBC223E00B64174 /* MSAlertControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9569184F1EBC223E00B64174 /* MSAlertControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				954F761A1F0298AC0023DA53 /* MSAlertController */,
+				956918531EBC223E00B64174 /* AppDelegate.h */,
+				956918541EBC223E00B64174 /* AppDelegate.m */,
+				956918561EBC223E00B64174 /* ViewController.h */,
+				956918571EBC223E00B64174 /* ViewController.m */,
+				9569185C1EBC223E00B64174 /* Assets.xcassets */,
+				9569185E1EBC223E00B64174 /* LaunchScreen.storyboard */,
+				956918611EBC223E00B64174 /* Info.plist */,
+				956918501EBC223E00B64174 /* Supporting Files */,
+			);
+			path = MSAlertControllerDemo;
+			sourceTree = "<group>";
+		};
+		956918501EBC223E00B64174 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				956918511EBC223E00B64174 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		956918691EBC223E00B64174 /* MSAlertControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9569186A1EBC223E00B64174 /* MSAlertControllerDemoTests.m */,
+				9569186C1EBC223E00B64174 /* Info.plist */,
+			);
+			path = MSAlertControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		956918741EBC223E00B64174 /* MSAlertControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				956918751EBC223E00B64174 /* MSAlertControllerDemoUITests.m */,
+				956918771EBC223F00B64174 /* Info.plist */,
+			);
+			path = MSAlertControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9569184C1EBC223E00B64174 /* MSAlertControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9569187A1EBC223F00B64174 /* Build configuration list for PBXNativeTarget "MSAlertControllerDemo" */;
+			buildPhases = (
+				956918491EBC223E00B64174 /* Sources */,
+				9569184A1EBC223E00B64174 /* Frameworks */,
+				9569184B1EBC223E00B64174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSAlertControllerDemo;
+			productName = MSAlertControllerDemo;
+			productReference = 9569184D1EBC223E00B64174 /* MSAlertControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		956918651EBC223E00B64174 /* MSAlertControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9569187D1EBC223F00B64174 /* Build configuration list for PBXNativeTarget "MSAlertControllerDemoTests" */;
+			buildPhases = (
+				956918621EBC223E00B64174 /* Sources */,
+				956918631EBC223E00B64174 /* Frameworks */,
+				956918641EBC223E00B64174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				956918681EBC223E00B64174 /* PBXTargetDependency */,
+			);
+			name = MSAlertControllerDemoTests;
+			productName = MSAlertControllerDemoTests;
+			productReference = 956918661EBC223E00B64174 /* MSAlertControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		956918701EBC223E00B64174 /* MSAlertControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 956918801EBC223F00B64174 /* Build configuration list for PBXNativeTarget "MSAlertControllerDemoUITests" */;
+			buildPhases = (
+				9569186D1EBC223E00B64174 /* Sources */,
+				9569186E1EBC223E00B64174 /* Frameworks */,
+				9569186F1EBC223E00B64174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				956918731EBC223E00B64174 /* PBXTargetDependency */,
+			);
+			name = MSAlertControllerDemoUITests;
+			productName = MSAlertControllerDemoUITests;
+			productReference = 956918711EBC223E00B64174 /* MSAlertControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		956918451EBC223E00B64174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ANT;
+				TargetAttributes = {
+					9569184C1EBC223E00B64174 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UU9V64MTUB;
+						ProvisioningStyle = Manual;
+					};
+					956918651EBC223E00B64174 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UU9V64MTUB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9569184C1EBC223E00B64174;
+					};
+					956918701EBC223E00B64174 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UU9V64MTUB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9569184C1EBC223E00B64174;
+					};
+				};
+			};
+			buildConfigurationList = 956918481EBC223E00B64174 /* Build configuration list for PBXProject "MSAlertControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 956918441EBC223E00B64174;
+			productRefGroup = 9569184E1EBC223E00B64174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9569184C1EBC223E00B64174 /* MSAlertControllerDemo */,
+				956918651EBC223E00B64174 /* MSAlertControllerDemoTests */,
+				956918701EBC223E00B64174 /* MSAlertControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9569184B1EBC223E00B64174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956918601EBC223E00B64174 /* LaunchScreen.storyboard in Resources */,
+				9569185D1EBC223E00B64174 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956918641EBC223E00B64174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9569186F1EBC223E00B64174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		956918491EBC223E00B64174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956918581EBC223E00B64174 /* ViewController.m in Sources */,
+				956918551EBC223E00B64174 /* AppDelegate.m in Sources */,
+				954F761D1F0298AC0023DA53 /* MSAlertController.m in Sources */,
+				956918521EBC223E00B64174 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956918621EBC223E00B64174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9569186B1EBC223E00B64174 /* MSAlertControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9569186D1EBC223E00B64174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956918761EBC223E00B64174 /* MSAlertControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		956918681EBC223E00B64174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9569184C1EBC223E00B64174 /* MSAlertControllerDemo */;
+			targetProxy = 956918671EBC223E00B64174 /* PBXContainerItemProxy */;
+		};
+		956918731EBC223E00B64174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9569184C1EBC223E00B64174 /* MSAlertControllerDemo */;
+			targetProxy = 956918721EBC223E00B64174 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9569185E1EBC223E00B64174 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9569185F1EBC223E00B64174 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		956918781EBC223F00B64174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		956918791EBC223F00B64174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9569187B1EBC223F00B64174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = UU9V64MTUB;
+				INFOPLIST_FILE = MSAlertControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MS.MSAlertControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		9569187C1EBC223F00B64174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = UU9V64MTUB;
+				INFOPLIST_FILE = MSAlertControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MS.MSAlertControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		9569187E1EBC223F00B64174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UU9V64MTUB;
+				INFOPLIST_FILE = MSAlertControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgtcl.MSAlertControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSAlertControllerDemo.app/MSAlertControllerDemo";
+			};
+			name = Debug;
+		};
+		9569187F1EBC223F00B64174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UU9V64MTUB;
+				INFOPLIST_FILE = MSAlertControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgtcl.MSAlertControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSAlertControllerDemo.app/MSAlertControllerDemo";
+			};
+			name = Release;
+		};
+		956918811EBC223F00B64174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UU9V64MTUB;
+				INFOPLIST_FILE = MSAlertControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgtcl.MSAlertControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MSAlertControllerDemo;
+			};
+			name = Debug;
+		};
+		956918821EBC223F00B64174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UU9V64MTUB;
+				INFOPLIST_FILE = MSAlertControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgtcl.MSAlertControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MSAlertControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		956918481EBC223E00B64174 /* Build configuration list for PBXProject "MSAlertControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956918781EBC223F00B64174 /* Debug */,
+				956918791EBC223F00B64174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9569187A1EBC223F00B64174 /* Build configuration list for PBXNativeTarget "MSAlertControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9569187B1EBC223F00B64174 /* Debug */,
+				9569187C1EBC223F00B64174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9569187D1EBC223F00B64174 /* Build configuration list for PBXNativeTarget "MSAlertControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9569187E1EBC223F00B64174 /* Debug */,
+				9569187F1EBC223F00B64174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		956918801EBC223F00B64174 /* Build configuration list for PBXNativeTarget "MSAlertControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956918811EBC223F00B64174 /* Debug */,
+				956918821EBC223F00B64174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 956918451EBC223E00B64174 /* Project object */;
+}
