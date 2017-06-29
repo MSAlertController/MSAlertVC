@@ -1,3 +1,6 @@
+# MSAlertController
+
+#### 一个高仿微博和微信的底部弹窗
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/MSAlertController/MSAlertVC/master/LICENSE)&nbsp;
 [![CocoaPods](https://img.shields.io/cocoapods/v/MSAlertVC.svg?style=flat)](http://cocoapods.org/pods/MSAlertVC)&nbsp;
