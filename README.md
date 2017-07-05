@@ -11,10 +11,7 @@
 
 MSAlertController                                           微信                                                       微博<br/>
 <img src="https://raw.githubusercontent.com/MSAlertController/MSImages/master/MSAlertVC/0ms.PNG" width="250"><img src="https://raw.githubusercontent.com/MSAlertController/MSImages/master/MSAlertVC/0wx.PNG" width="250"><img src="https://raw.githubusercontent.com/MSAlertController/MSImages/master/MSAlertVC/0wb.PNG" width="250"><br/>
-<img src="https://raw.githubusercontent.com/MSAlertController/MSImages/master/MSAlertVC/1ms.PNG" width="250"><img src="https://raw.githubusercontent.com/MSAlertController/MSImages/master/MSAlertVC/1wx.PNG" width="250"><img src="https://raw.githubusercontent.com/MSAlertController/MSImages/master/MSAlertVC/1wb.PNG" width="250"><br/>
-<img src="https://raw.githubusercontent.com/MSAlertController/MSImages/master/MSAlertVC/2ms.PNG" width="250"><img src="https://raw.githubusercontent.com/MSAlertController/MSImages/master/MSAlertVC/2wx.PNG" width="250"><img src="https://raw.githubusercontent.com/MSAlertController/MSImages/master/MSAlertVC/2wb.PNG" width="250"><br/>
-<img src="https://raw.githubusercontent.com/MSAlertController/MSImages/master/MSAlertVC/3ms.PNG" width="250"><img src="https://raw.githubusercontent.com/MSAlertController/MSImages/master/MSAlertVC/3wx.PNG" width="250"><img src="https://raw.githubusercontent.com/MSAlertController/MSImages/master/MSAlertVC/3wb.PNG" width="250"><br/>
-<img src="https://raw.githubusercontent.com/MSAlertController/MSImages/master/MSAlertVC/4ms.PNG" width="250"><img src="https://raw.githubusercontent.com/MSAlertController/MSImages/master/MSAlertVC/4wx.PNG" width="250"><img src="https://raw.githubusercontent.com/MSAlertController/MSImages/master/MSAlertVC/4wb.PNG" width="250"><br/>
+[更多效果展示图](https://github.com/MSAlertController/MSImages/tree/master/MSAlertVC)
 
 ## 系统要求
 
