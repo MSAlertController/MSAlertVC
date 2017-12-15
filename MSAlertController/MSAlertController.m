@@ -51,12 +51,10 @@ static const CGFloat lineHeight = 0.4;
 
  @return <#return value description#>
  */
-- (_Nonnull instancetype)initWithConfirmArr:(nonnull NSArray *)confirmArr {
+- (_Nonnull instancetype)initWithConfirmArr:(nonnull NSArray *)confirmArr NS_CLASS_AVAILABLE_IOS(8_0) {
     if (self = [super init]) {
         // 设置本控制器为透明
-        if (@available(iOS 8.0, *)) {
-            self.modalPresentationStyle = UIModalPresentationOverCurrentContext;
-        }
+        self.modalPresentationStyle = UIModalPresentationOverCurrentContext;
         // 将传进来数组中的非字符串剔除
         self.confirmArr = [NSMutableArray array];
         for (id element in confirmArr) {
