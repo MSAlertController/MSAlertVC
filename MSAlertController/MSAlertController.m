@@ -9,6 +9,7 @@
 #import "MSAlertController.h"
 #define MSScreenWidth ([UIScreen mainScreen].bounds.size.width)
 #define MSScreenHeight ([UIScreen mainScreen].bounds.size.height)
+#define MSBottomSafeAreaHeight (MSScreenHeight == 812 ? 34 : 0)
 
 @interface MSAlertController ()
 
@@ -23,7 +24,7 @@
 /* 存储取消按钮的文字内容字体和颜色 */ // 默认为“取消”，字体颜色同上
 @property (nonatomic, strong, nullable) NSMutableDictionary *cancleDict;
 /* 毛玻璃背景 */
-@property (nonatomic, strong, nullable) UIVisualEffectView *effectView;
+@property (nonatomic, strong, nullable) UIVisualEffectView *effectView NS_CLASS_AVAILABLE_IOS(8_0);
 
 @end
 
@@ -53,7 +54,9 @@ static const CGFloat lineHeight = 0.4;
 - (_Nonnull instancetype)initWithConfirmArr:(nonnull NSArray *)confirmArr {
     if (self = [super init]) {
         // 设置本控制器为透明
-        self.modalPresentationStyle = UIModalPresentationOverCurrentContext;
+        if (@available(iOS 8.0, *)) {
+            self.modalPresentationStyle = UIModalPresentationOverCurrentContext;
+        }
         // 将传进来数组中的非字符串剔除
         self.confirmArr = [NSMutableArray array];
         for (id element in confirmArr) {
@@ -65,7 +68,7 @@ static const CGFloat lineHeight = 0.4;
     return self;
 }
 
-- (void)viewDidLoad {
+- (void)viewDidLoad NS_CLASS_AVAILABLE_IOS(8_0) {
     [super viewDidLoad];
     
     if (self.confirmArr.count == 0) {
@@ -112,7 +115,7 @@ static const CGFloat lineHeight = 0.4;
     // 计算整个毛玻璃的高度
     CGFloat totalHeight = self.confirmArr.count * rowHeight + (self.confirmArr.count - 1) * lineHeight + titleHeight + 5 + rowHeight;
     // 重新设置毛玻璃背景的frame
-    self.effectView.frame = CGRectMake(0, MSScreenHeight, MSScreenWidth, totalHeight);
+    self.effectView.frame = CGRectMake(0, MSScreenHeight, MSScreenWidth, totalHeight + MSBottomSafeAreaHeight);
     // 生成一个图片，作为确认按钮点击后高亮的背景图
     UIImage *highlightImage = [self createSelectionIndicatorImage:[UIColor colorWithWhite:0.5 alpha:0.2] size:CGSizeMake(MSScreenWidth, rowHeight)];
     // 循环生成确认按钮的毛玻璃背景和确认按钮
@@ -163,7 +166,7 @@ static const CGFloat lineHeight = 0.4;
     }
 }
 
-- (void)viewDidAppear:(BOOL)animated {
+- (void)viewDidAppear:(BOOL)animated NS_CLASS_AVAILABLE_IOS(8_0) {
     [super viewDidAppear:animated];
     if (self.confirmArr.count == 0) {
         return;
@@ -179,7 +182,7 @@ static const CGFloat lineHeight = 0.4;
 /**
  点击取消按钮或空白区域收回选择框
  */
-- (void)dismiss {
+- (void)dismiss NS_CLASS_AVAILABLE_IOS(8_0) {
     [UIView animateWithDuration:0.3 animations:^{
         self.view.backgroundColor = [UIColor clearColor];
         self.effectView.frame = CGRectMake(0, MSScreenHeight, MSScreenWidth, self.effectView.frame.size.height);
@@ -197,7 +200,7 @@ static const CGFloat lineHeight = 0.4;
 
  @param button <#button description#>
  */
-- (void)buttonAction:(UIButton *)button {
+- (void)buttonAction:(UIButton *)button NS_CLASS_AVAILABLE_IOS(8_0) {
     [UIView animateWithDuration:0.3 animations:^{
         self.view.backgroundColor = [UIColor clearColor];
         self.effectView.frame = CGRectMake(0, MSScreenHeight, MSScreenWidth, self.effectView.frame.size.height);
@@ -264,7 +267,7 @@ static const CGFloat lineHeight = 0.4;
     return _fontDict;
 }
 
-- (NSMutableDictionary *)cancleDict {
+- (NSMutableDictionary *)cancleDict NS_CLASS_AVAILABLE_IOS(8_0) {
     if (!_cancleDict) {
         _cancleDict = [NSMutableDictionary dictionary];
         _cancleDict[@"title"] = @"取消";

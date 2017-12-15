@@ -23,8 +23,8 @@
 - (BOOL)prefersStatusBarHidden {
     return YES;
 }
-/** 为了能更好的体验MSAlertController的效果，我在微博保存了几张高清无码大图，在不增加Demo大小的前提下，我选择了网易博客😅把这几张图传到了博客，然后第一次打开demo的时候，会从网络获取到这几张图片，并缓存到沙盒里，这些代码和MSAlertController的使用并没有半毛钱的关系，可以选择直接忽略掉😆 */
-- (void)saveImage:(void(^)())completion {
+/** 为了能更好的体验MSAlertController的效果，控制Demo大小，我缓存了几张网络图片，这些代码和MSAlertController的使用并没有半毛钱的关系，可以选择直接忽略掉😆 */
+- (void)saveImage:(void(^)(void))completion {
     UILabel *label = [[UILabel alloc] init];
     label.frame = CGRectMake(0, 0, 266, 25);
     label.center = self.view.center;
@@ -83,7 +83,16 @@
     self.dataArray = @[@[@"发送给朋友", @"收藏", @"保存图片"] ,@[@"保存图片", @"转发微博", @"赞"]];
     [self.view addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(gestureAction)]];
     self.imageView = [[UIImageView alloc] init];
-    self.imageView.frame = self.view.bounds;
+    CGFloat width = [UIScreen mainScreen].bounds.size.width;
+    CGFloat height = [UIScreen mainScreen].bounds.size.height;
+    if (width / height > 9 / 16.0) {
+        self.imageView.frame = CGRectMake(0, 0, width, width * 16 / 9.0);
+    } else if (width / height < 9 / 16.0) {
+        self.imageView.frame = CGRectMake(0, 0, height * 9 / 16.0, height);
+    } else {
+        self.imageView.frame = self.view.bounds;
+    }
+    self.imageView.center = self.view.center;
     [self.view addSubview:self.imageView];
     self.imageView.image = self.imageArr[arc4random_uniform(5)];
     self.timer = [NSTimer scheduledTimerWithTimeInterval:2 repeats:YES block:^(NSTimer * _Nonnull timer) {

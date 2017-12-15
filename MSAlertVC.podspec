@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MSAlertVC"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "一个高仿微博和微信的底部弹窗"
   s.description  = <<-DESC
                     MSAlertController的初始化仿照系统的UIAlertController，但是点击事件放在了同一个block中，代码更简洁
